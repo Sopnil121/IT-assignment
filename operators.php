@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-  <?php
 
-// ------------------a ------------------
+  <?php
+// a
 $num1 = 20;
 $num2 = 6;
 
@@ -21,7 +13,7 @@ echo "Division = " . ($num1 / $num2) . "<br>";
 echo "Modulus = " . ($num1 % $num2) . "<br><br>";
 
 
-// ------------------ b ------------------
+// b 
 echo "b: Assignment Operators<br>";
 $x = 10;
 echo "Initial value of x = $x<br>";
@@ -42,11 +34,12 @@ $x %= 3;
 echo "After x %= 3, x = $x<br><br>";
 
 
-// ------------------ c -----------------
+//  c
 echo "c: Logical Operators<br>";
 $number = 44;
 
 echo "Number = $number<br>";
+
 
 // Check if number is between 1 and 100 AND even
 
@@ -54,17 +47,13 @@ echo "Number = $number<br>";
 if ($number >= 1 && $number <= 100 && $number % 2 == 0) {
     echo "The number is between 1 and 100 and even.<br>";
 }
-
 // Using OR operator
 if ($number < 1 || $number > 100) {
     echo "The number is outside the range 1 to 100.<br>";
 }
-
 // Using NOT operator
 if (!($number % 2 == 1)) {
     echo "The number is not odd (so it is even).<br>";
 }
 ?>
 
-</body>
-</html>
